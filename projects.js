@@ -1,1 +1,144 @@
-const projects = {"newlook": {"title": "New Look", "sector": "retail", "category": "RETAIL / INTERIORS", "images": ["new-look-detail.jpg", "new-look.jpg"], "description": "Interior design, visualisation and branding brought together to shape the in-store shopping experience.", "client": "New Look", "services": "Interior design, 3D visualisation, branding", "year": 2022, "summary": "A fresh perspective on the in-store experience."}, "malmaison": {"title": "Malmaison, York", "sector": "hospitality", "category": "HOSPITALITY / BRANDING", "images": ["malmaison.jpg"], "description": "Bespoke lighting and branding for Malmaison Hotel in York, developed through sketches, 3D modelling and prototyping.", "client": "Malmaison", "services": "Sketching, 3D modelling, prototyping", "year": 2022, "summary": "Lighting and branding with a distinctive personality."}, "ms": {"title": "Marks & Spencer", "sector": "retail", "category": "RETAIL / FEATURE DISPLAY", "description": "A focal entrance display for a Marks & Spencer flagship store, developed through sketching, 3D modelling and prototyping.", "client": "Marks & Spencer", "services": "Sketching, 3D modelling, prototyping", "year": 2023, "summary": "A focal display that makes an entrance.", "images": ["ms-0.jpg", "ms-1.jpg"]}, "go-outdoors": {"title": "GO Outdoors", "sector": "retail", "category": "RETAIL / FIT OUT", "description": "Retail fittings, fixtures, signage and feature displays, bringing interior design, visualisation and branding into the store environment.", "client": "GO Outdoors", "services": "Interior design, 3D visualisation, branding", "year": 2022, "summary": "Fixtures, signage and displays built for adventure.", "images": ["go-outdoors-0.jpg", "go-outdoors-1.jpg"]}, "tesutti": {"title": "Tessuti, Manchester", "sector": "retail", "category": "RETAIL / SIGNAGE & LIGHTING", "description": "Illuminated signage, graphics, interior fixtures and finishes for the Manchester store, with bespoke signage, visualisation and lighting design.", "client": "Tessuti", "services": "Bespoke signage, 3D visualisation, lighting design", "year": 2023, "summary": "Fashion retail brought into focus.", "images": ["tesutti-0.jpg", "tesutti-1.jpg"]}, "tgi-fridays": {"title": "TGI Fridays", "sector": "hospitality", "category": "HOSPITALITY / SIGNAGE & LIGHTING", "description": "Illuminated signage for interior and exterior spaces, alongside fixtures and finishes that carry the restaurant brand through the environment.", "client": "TGI Fridays", "services": "Bespoke signage, 3D visualisation, lighting design", "year": 2023, "summary": "A recognisable brand, from street to seat.", "images": ["tgi-fridays-0.jpg", "tgi-fridays-1.jpg"]}, "feya": {"title": "Feya Café", "sector": "hospitality", "category": "HOSPITALITY / BESPOKE FEATURES", "description": "Interior lighting, signage metalwork and floral display features, developed through sketching, 3D modelling and prototyping.", "client": "Feya", "services": "Sketching, 3D modelling, prototyping", "year": 2022, "summary": "Lighting, metalwork and floral details.", "images": ["feya-0.jpg", "feya-1.jpg"]}, "sandbox": {"title": "Sandbox VR", "sector": "leisure", "category": "LEISURE / LIGHTING & BRANDING", "description": "Bespoke lighting and branding created to enhance the virtual reality experience and give the physical space a distinct identity.", "client": "Sandbox VR", "services": "Bespoke lighting, branding", "year": 2022, "summary": "A physical space for a virtual experience.", "images": ["sandbox-0.jpg", "sandbox-1.jpg"]}};
+const projects = {
+  "newlook": {
+    "title": "New Look",
+    "sector": "retail",
+    "category": "RETAIL / INTERIORS",
+    "images": [
+      "new-look-store-interior.webp",
+      "new-look-in-store-campaign.webp",
+      "new-look-window-display.webp",
+      "new-look-feature-graphic.webp",
+      "new-look-detail.jpg",
+      "new-look.jpg"
+    ],
+    "description": "A look at New Look’s retail interiors, from the shop floor and illuminated displays to seasonal window displays and in-store campaign graphics.",
+    "client": "New Look",
+    "services": "Interior design, 3D visualisation, branding and retail graphics",
+    "year": 2022,
+    "summary": "Store interiors, seasonal windows and in-store campaign graphics.",
+    "photoLabels": [
+      {
+        "title": "Store interior and illuminated displays",
+        "alt": "Wide view of the New Look store interior with illuminated campaign panels and display fixtures."
+      },
+      {
+        "title": "In-store campaign graphics",
+        "alt": "Red New Look campaign graphics above clothing rails and display fixtures."
+      },
+      {
+        "title": "Seasonal window display",
+        "alt": "New Look shop window with red seasonal graphics, mannequins and display plinths."
+      },
+      {
+        "title": "Large-format campaign graphic",
+        "alt": "Large New Look campaign graphic with fashion models and a teddy bear, viewed across a glass railing."
+      },
+      {
+        "title": "Shop floor and product displays",
+        "alt": "New Look sales floor with mannequins, display tables and clothing racks."
+      },
+      {
+        "title": "Accessories department",
+        "alt": "New Look accessories department with handbags on display and illuminated department signage."
+      }
+    ],
+    "yearLabel": "Original fit out"
+  },
+  "malmaison": {
+    "title": "Malmaison, York",
+    "sector": "hospitality",
+    "category": "HOSPITALITY / BRANDING",
+    "images": [
+      "malmaison.jpg"
+    ],
+    "description": "Bespoke lighting and branding for Malmaison Hotel in York, developed through sketches, 3D modelling and prototyping.",
+    "client": "Malmaison",
+    "services": "Sketching, 3D modelling, prototyping",
+    "year": 2022,
+    "summary": "Lighting and branding with a distinctive personality."
+  },
+  "ms": {
+    "title": "Marks & Spencer",
+    "sector": "retail",
+    "category": "RETAIL / FEATURE DISPLAY",
+    "description": "A focal entrance display for a Marks & Spencer flagship store, developed through sketching, 3D modelling and prototyping.",
+    "client": "Marks & Spencer",
+    "services": "Sketching, 3D modelling, prototyping",
+    "year": 2023,
+    "summary": "A focal display that makes an entrance.",
+    "images": [
+      "ms-0.jpg",
+      "ms-1.jpg"
+    ]
+  },
+  "go-outdoors": {
+    "title": "GO Outdoors",
+    "sector": "retail",
+    "category": "RETAIL / FIT OUT",
+    "description": "Retail fittings, fixtures, signage and feature displays, bringing interior design, visualisation and branding into the store environment.",
+    "client": "GO Outdoors",
+    "services": "Interior design, 3D visualisation, branding",
+    "year": 2022,
+    "summary": "Fixtures, signage and displays built for adventure.",
+    "images": [
+      "go-outdoors-0.jpg",
+      "go-outdoors-1.jpg"
+    ]
+  },
+  "tesutti": {
+    "title": "Tessuti, Manchester",
+    "sector": "retail",
+    "category": "RETAIL / SIGNAGE & LIGHTING",
+    "description": "Illuminated signage, graphics, interior fixtures and finishes for the Manchester store, with bespoke signage, visualisation and lighting design.",
+    "client": "Tessuti",
+    "services": "Bespoke signage, 3D visualisation, lighting design",
+    "year": 2023,
+    "summary": "Fashion retail brought into focus.",
+    "images": [
+      "tesutti-0.jpg",
+      "tesutti-1.jpg"
+    ]
+  },
+  "tgi-fridays": {
+    "title": "TGI Fridays",
+    "sector": "hospitality",
+    "category": "HOSPITALITY / SIGNAGE & LIGHTING",
+    "description": "Illuminated signage for interior and exterior spaces, alongside fixtures and finishes that carry the restaurant brand through the environment.",
+    "client": "TGI Fridays",
+    "services": "Bespoke signage, 3D visualisation, lighting design",
+    "year": 2023,
+    "summary": "A recognisable brand, from street to seat.",
+    "images": [
+      "tgi-fridays-0.jpg",
+      "tgi-fridays-1.jpg"
+    ]
+  },
+  "feya": {
+    "title": "Feya Café",
+    "sector": "hospitality",
+    "category": "HOSPITALITY / BESPOKE FEATURES",
+    "description": "Interior lighting, signage metalwork and floral display features, developed through sketching, 3D modelling and prototyping.",
+    "client": "Feya",
+    "services": "Sketching, 3D modelling, prototyping",
+    "year": 2022,
+    "summary": "Lighting, metalwork and floral details.",
+    "images": [
+      "feya-0.jpg",
+      "feya-1.jpg"
+    ]
+  },
+  "sandbox": {
+    "title": "Sandbox VR",
+    "sector": "leisure",
+    "category": "LEISURE / LIGHTING & BRANDING",
+    "description": "Bespoke lighting and branding created to enhance the virtual reality experience and give the physical space a distinct identity.",
+    "client": "Sandbox VR",
+    "services": "Bespoke lighting, branding",
+    "year": 2022,
+    "summary": "A physical space for a virtual experience.",
+    "images": [
+      "sandbox-0.jpg",
+      "sandbox-1.jpg"
+    ]
+  }
+};

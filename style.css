@@ -28,3 +28,7 @@
 
 /* One visible scroll control: the range bar below the logos. */
 .clients>.brand-window{scrollbar-width:none;-ms-overflow-style:none}.brand-window::-webkit-scrollbar{display:none;width:0;height:0}
+
+/* Project photo captions */
+.captioned-gallery .gallery>img{object-fit:contain;background:#181818}.photo-caption{margin:0;padding:12px 35px 0;font-size:15px;font-weight:600}.photo-expanded .photo-caption{padding:8px 20px 0}.photo-expanded.captioned-gallery .gallery>img{height:calc(90dvh - 136px)}
+@media(max-width:760px){.photo-caption{padding-left:25px;padding-right:25px}.photo-expanded.captioned-gallery .gallery>img{height:calc(88dvh - 136px)}}
